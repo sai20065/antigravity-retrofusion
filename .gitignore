@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.db
+*.sqlite3
+.env
+*.egg-info/
+dist/
+build/
+create_repo*.py
+delete_repo*.py

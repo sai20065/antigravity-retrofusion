@@ -1,0 +1,32 @@
+# ── Core ───────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+plotly>=5.18.0
+folium>=0.15.0
+streamlit-folium>=0.18.0
+Pillow>=10.0.0
+requests>=2.31.0
+
+# ── Computer Vision & AI ──────────────────────────────────────────────────
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+
+# ── Google Gemma 4 API ────────────────────────────────────────────────────
+google-generativeai>=0.8.0
+
+# ── GPS Parsing ───────────────────────────────────────────────────────────
+pynmea2>=1.19.0
+
+# ── Hardware (Raspberry Pi) ───────────────────────────────────────────────
+smbus2>=0.4.3
+pyserial>=3.5
+RPi.GPIO>=0.7.1; platform_machine=="armv7l" or platform_machine=="aarch64"
+
+# ── Training (dev machine only) ───────────────────────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+
+# ── TFLite (Raspberry Pi only) ────────────────────────────────────────────
+# tflite-runtime>=2.14.0; platform_machine=="armv7l" or platform_machine=="aarch64"
